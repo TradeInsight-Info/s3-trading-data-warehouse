@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "s3-trading-warehouse"
+version = "0.1.0"
+description = ""
+authors = ["tim <112362872+tim-bai@users.noreply.github.com >"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.8"
+alpaca-py = "^0.38.0"
+boto3 = "^1.36.18"
+pandas = "^2.2.3"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
