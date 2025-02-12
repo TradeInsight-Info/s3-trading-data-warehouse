@@ -12,3 +12,12 @@ Environment Varialbes:
 - ALPACA_API_KEY
 - ALPACA_SECRET_KEY
 - S3_BUCKET_NAME
+
+
+## Examples
+
+- download and save stocks data
+`python s3_trading_warehouse/stw.py download --symbol AAPL --start 2021-01-01 --end 2021-01-31`
+
+- query stocks data to get the S3 file
+`python s3_trading_warehouse/stw.py query --file-name AAPL`
